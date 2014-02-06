@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		<title>Cantor - Educational System Integrations as a Service</title>
+		<link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="css/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="css/core.css" media="all" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="jumbotron masthead">
+			<div class="container">
+				<h1>Another level of educational integrations.</h1>
+				<p>
+					Cantor provides unique features and capabilities that aren't available by any other company, in a friendly SaaS package.
+				</p>
+				<div class="pull-right">
+					<a class="btn btn-primary" data-toggle="modal" href="#contact-modal"><i class="fa fa-comments"></i> Get in Touch</a>
+				</div>
+			</div>
+		</div>
+		<div class="social">
+			<div class="container">
+				<ul class="social-links">
+					<li class="linkedin"><a href="#adaptable">Adaptable</a></li>
+					<li class="dribbble"><a href="#secure">Secure</a></li>
+					<li class="goodreads"><a href="#friendly">Friendly</a></li>
+					<li class="github"><a href="#smart">Smart</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="love">
+				<h1 id="adaptable">Adaptable.</h1>
+				<p class="love-byline">Being adaptable solves issues before they can become problems.</p>
+				<div class="row-fluid">
+					<div class="span4">
+						<i class="fa fa-arrows fa-5x love-icon"></i>
+						There are two aspects which allow Cantor to handle everything from tiny districts to those with hundreds of thousands of students. The first is the ability to shard integration executions into subgroupings of nearly any size. The other is a completely dynamic and horizontally scaling infrastructure, based upon demand.
+					</div>
+					<div class="span4">
+						<i class="fa fa-map-marker fa-5x love-icon"></i>
+						Processing and data persistence nodes can exist on Cantor's cloud infrastructure, but can also be hosted on locally owned and maintained district infrastructure. In the latter setup, district data at every point never need leave the confines of your own datacenter. This includes logs and credentials.
+					</div>
+					<div class="span4">
+						<i class="fa fa-magic fa-5x love-icon"></i>
+						Every district does things, sometimes dramatically, differently from one another. Cantor's model is based around event stream processing which allows for lenses to be applied at multiple points. Via a simple Domain Specific Language, complex business rules can be defined and applied to your district's integration.
+					</div>
+				</div>
+				<hr/>
+				<h1 id="secure">Secure.</h1>
+				<p class="love-byline">Security is a foremost concern, not an afterthought.</p>
+				<div class="row-fluid">
+					<div class="span4">
+						<i class="fa fa-code-fork fa-5x love-icon"></i>
+						There is complete data and process isolation between districts. This is true whether districts leverage our infrastructure or their own. Linux containers are dynamically allocated, created, process said integration, and are then completely destroyed.
+					</div>
+					<div class="span4">
+						<i class="fa fa-lock fa-5x love-icon"></i>
+						Credentials and sensitive information are always salted/hashed via SHA-512 or encrypted via AES-512. Districts may also optionally leverage adaptive ciphers like bcrypt to increase the computational power needed for brute-force search attacks into the future.
+					</div>
+					<div class="span4">
+						<i class="fa fa-fighter-jet fa-5x love-icon"></i>
+						All traffic is cryptographically secured. This includes not only the communications to/from each educational system, but also within the Cantor infrastructure itself. If completely unavailable for a third-party system, the district is informed and consent required.
+					</div>
+				</div>
+				<hr/>
+				<h1 id="friendly">Friendly.</h1>
+				<p class="love-byline">Cantor isn't a headless black box.</p>
+				<div class="row-fluid">
+					<div class="span4">
+						<i class="fa fa-github fa-5x love-icon"></i>
+						We are big believers in <a href="http://en.wikipedia.org/wiki/Eating_your_own_dog_food">eating your own dog food</a>. Our web, mobile, iPhone, and Android applications all consume our openly available RESTful API, secured via oAuth. This allows districts to perform all Cantor administration operations programatically.
+					</div>
+					<div class="span4">
+						<i class="fa fa-apple fa-5x love-icon"></i>
+						Cantor provides district administrators with a robust web and mobile applications that allows them to view logs, view data integrity alerts, manually trigger integrations, change settings, and more. Free iPhone and Android applications are also in development, allowing Cantor to be with you at all times.
+					</div>
+					<div class="span4">
+						<i class="fa fa-thumbs-up fa-5x love-icon"></i>
+						Each new feature added, integration module created, and document updated is completely free and available to districts. We are also big believers in open source development and contribute as often as possible.
+					</div>
+				</div>
+				<hr/>
+				<h1 id="smart">Smart.</h1>
+				<p class="love-byline">As the saying goes, work smart not hard.</p>
+				<div class="row-fluid">
+					<div class="span4">
+						<i class="fa fa-comment fa-5x love-icon"></i>
+						Mock system integration capabilities are available to test custom business rules or general questions you might have. No longer do you have to wonder "what will the data look like if X happens". You can try it. Right now.
+					</div>
+					<div class="span4">
+						<i class="fa fa-eye fa-5x love-icon"></i>
+						To help ensure only valid data is integrated, Cantor performs checks of common data integrity issues prior to execution (e.g. staff accidentally rolled-forward in January). Cantor is also defensively programmed, helping to ensure that newest update you took doesn't interfere with the integration itself.
+					</div>
+					<div class="span4">
+						<i class="fa fa-book fa-5x love-icon"></i>
+						Cantor leverages many tried and true mathematical concepts, is developed in a statically type/purely functional manner, has complete unit/integration test coverage, is completely automated at all levels, and is self documenting.
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="pull-left">Cantor: Educational System Integrations as a Service</div>
+				<div class="pull-right"><a href="#">Back to Top</a></div>
+			</div>
+		</footer>
+		<div id="contact-modal" class="modal hide fade">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h3>Get in touch:</h3><span class="label">Always happy to answer questions or simply discuss</span>
+			</div>
+			<div class="modal-body">
+				<ul>
+					<li><strong>Email:</strong> <a href="mailto:cantor@rockymadden.com">cantor@rockymadden.com</a></li>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	</body>
+</html>
